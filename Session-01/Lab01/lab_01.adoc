@@ -40,7 +40,7 @@ If you haven't already, set the API target for the CLI: (set appropriate end poi
 
 
 ----
-> cf api https://api.run.haas-76.pez.pivotal.io --skip-ssl-validation
+> cf api https://api.run.haas-69.pez.pivotal.io --skip-ssl-validation
 ----
 and login to Pivotal Cloud Foundry:
 
@@ -86,7 +86,7 @@ You should see output similar to the following listing. Take a look at the listi
 ----
 Using manifest file manifest.yml
 
-Creating app env in org test / space test as admin...
+Creating app env in org student1 / space dev as student1...
 OK
 
 Creating route env-peperine-flannelette.apps.testcloud.com...
@@ -101,7 +101,7 @@ Uploading 9.6M, 291 files
 Done uploading               
 OK
 
-Starting app env in org test / space test as admin...
+Starting app env in org dev / space test as student1...
 Downloading binary_buildpack...
 Downloading nodejs_buildpack...
 Downloading staticfile_buildpack...
@@ -162,7 +162,7 @@ OK
 
 App env was started using this command `cd . && ./CloudFoundry --server.urls http://0.0.0.0:${PORT}`
 
-Showing health and status for app env in org test / space test as admin...
+Showing health and status for app env in org student1 / space dev as student1...
 OK
 
 requested state: started

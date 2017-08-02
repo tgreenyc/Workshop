@@ -32,7 +32,7 @@ The first is available on any instance of Cloud Foundry: the CLI. Just type:
 and you'll get a list of services, their available plans, and descriptions. On Pivotal Cloudfoundry, the ``free`` tier of plans is normally the first one listed.
 
 The second way is specific to Pivotal Cloudfoundry's Apps Manager UI.
-If you haven't already, login to it by visiting https://apps.run.haas-76.pez.pivotal.io or the appropriate link for your workshop setup.
+If you haven't already, login to it by visiting https://apps.run.haas-69.pez.pivotal.io or the appropriate link for your workshop setup.
 
 Click on the ''Marketplace'' link:
 
